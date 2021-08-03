@@ -1,0 +1,50 @@
+<hotels>
+    <hotel1>
+        <information name="Lakeview Hotel">
+            <adress>Rua West Sandford, Nº2, Toluca Lake</adress>
+            <stars>4 Estrelas</stars>
+            <rooms>
+                <room type="Standard">
+                    <medi>75m²</medi>
+                    <peop>2 Pessoas</peop>
+                    <wall>1 Suite</wall>
+                    <eat>Cafe da Manha</eat>
+                    <price>599.90</price>
+                </room>
+                <room type="Gold">
+                    <medi>350m²</medi>
+                    <peop>3 a 5 Pessoas</peop>
+                    <wall>2 Suites</wall>
+                    <eat>Cafe da Manha e Almoco</eat>
+                    <price>1200.00</price>
+                </room>
+                <room type="Premium">
+                    <medi>500m²</medi>
+                    <peop>5 a 8 Pessoas</peop>
+                    <wall>4 Suites</wall>
+                    <eat>Cafe da Manha, Almoco, Jantar</eat>
+                    <price>4000.00</price>
+                </room>
+                <room type="Presidencial">
+                    <medi>750m²</medi>
+                    <peop>8 a 10 Pessoas</peop>
+                    <wall>8 Suites</wall>
+                    <eat>Tudo incluso</eat>
+                    <serv>Piscina</serv>
+                    <serv>Spa</serv>
+                    <price>10000.00</price>
+                </room>            
+            </rooms>
+        </information>
+        <service list="Available">
+            <serv>Serviço de Quarto</serv>
+            <serv>Recepcao 24hs</serv>
+            <serv>Restaurante</serv>
+            <serv>Lavanderia</serv>
+            <serv>Piscina</serv>
+            <serv>Sauna</serv>
+            <serv>Spa</serv>
+            <serv>Bar</serv>
+        </service>
+    </hotel1>
+</hotels>

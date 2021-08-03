@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fy:schema targetNamespace="http://www.smiles.com.br/CancelCarBPEL/CancelCar" elementFormDefault="qualified"
+            version="1.0" xmlns:fy="http://www.w3.org/2001/XMLSchema">
+
+    <fy:element name="NotifyTransactionRequest">
+        <fy:complexType>
+            <fy:sequence>
+                <fy:element name="memberNumber" type="fy:decimal"/>
+                <fy:element name="firstName" type="fy:string"/>
+                <fy:element name="lastName" type="fy:string"/>
+                <fy:element name="category" type="fy:string"/>
+                <fy:element name="isClubMember" type="fy:boolean"/>
+                <fy:element name="isFamilyAccount" type="fy:boolean"/>
+                <fy:element name="isCobranded" type="fy:boolean"/>
+                <fy:element name="email" type="fy:string"/>
+                <fy:element name="language" type="fy:string"/>
+                <fy:element name="availableMiles" type="fy:decimal"/>
+                <fy:element name="qualifiableMiles" type="fy:decimal"/>
+                <fy:element name="qualifiableSegment" type="fy:decimal"/>
+                <fy:element name="categoryExpirationDate" type="fy:date"/>
+                <fy:element name="autoRenovationFlag" type="fy:boolean"/>
+                <fy:element name="transaction">
+                    <fy:complexType>
+                        <fy:sequence>
+                            <fy:element name="id" type="fy:string"/>
+                            <fy:element name="type" type="fy:string"/>
+                            <fy:element name="creationDate" type="fy:dateTime"/>
+                            <fy:element name="partnerType" type="fy:string"/>
+                            <fy:element name="itensTransaction">
+                                <fy:complexType>
+                                    <fy:sequence>
+                                        <fy:element name="itemTransaction" maxOccurs="unbounded">
+                                            <fy:complexType>
+                                                <fy:sequence>
+                                                    <fy:element name="itemId" type="fy:string"/>
+                                                    <fy:element name="action" type="fy:string"/>
+                                                    <fy:element name="ProductType" type="fy:string"/>
+                                                    <fy:element name="milesType" type="fy:string"/>
+                                                    <fy:element name="amount" type="fy:decimal"/>
+                                                </fy:sequence>
+                                            </fy:complexType>
+                                        </fy:element>
+                                    </fy:sequence>
+                                </fy:complexType>
+                            </fy:element>
+                        </fy:sequence>
+                    </fy:complexType>
+                </fy:element>
+             </fy:sequence>
+        </fy:complexType>   
+    </fy:element>
+</fy:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cs:schema targetNamespace="http://www.facasualista.com.br/casamento/minhalista" elementFormDefault="qualified"
+            version="1.0" xmlns:cs="http://www.w3.org/2001/XMLSchema">
+
+    <cs:element name="casamento">
+        <cs:complexType>
+            <cs:sequence>
+                <cs:element name="information">
+                    <cs:complexType>
+                        <cs:sequence>
+                            <cs:element name="hour" type="cs:time"/>
+                        </cs:sequence>
+                        <cs:attribute name="data" type="cs:date" use="optional"/>
+                    </cs:complexType>
+                </cs:element>
+                <cs:element name="list" maxOccurs="unbounded">
+                    <cs:complexType>
+                        <cs:sequence>
+                            <cs:element name="peop" type="cs:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </cs:sequence>
+                        <cs:attribute name="type" type="cs:string" use="optional"/>
+                    </cs:complexType>
+                </cs:element>
+            </cs:sequence>
+        </cs:complexType>
+    </cs:element>
+</cs:schema>

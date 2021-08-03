@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ho:schema targetNamespace="http://www.hospedagemtop.com/viwer/hotel" elementFormDefault="qualified"
+            version="1.0" xmlns:ho="http://www.w3.org/2001/XMLSchema">
+            
+    <ho:element name="hotels">
+        <ho:complexType>
+            <ho:sequence>
+                <ho:element name="hotel1">
+                    <ho:complexType>
+                        <ho:sequence>
+                            <ho:element name="information">
+                                <ho:complexType>
+                                    <ho:sequence>
+                                        <ho:element name="adress" type="ho:string"/>
+                                        <ho:element name="stars" type="ho:string"/>
+                                        <ho:element name="rooms">
+                                            <ho:complexType>
+                                                <ho:sequence>
+                                                    <ho:element name="room">
+                                                        <ho:complexType>
+                                                            <ho:sequence>
+                                                                <ho:element name="med" type="ho:string" minOccurs="1"/>
+                                                                <ho:element name="peop" type="ho:string" minOccurs="1"/>
+                                                                <ho:element name="wall" type="ho:string" minOccurs="1"/>
+                                                                <ho:element name="eat" type="ho:string" minOccurs="1"/>
+                                                                <ho:element name="price" type="ho:decimal" minOccurs="1"/>
+                                                            </ho:sequence>
+                                                            <ho:attribute name="type" type="ho:string" use="required"/>
+                                                        </ho:complexType>
+                                                    </ho:element>
+                                                </ho:sequence>
+                                            </ho:complexType>
+                                        </ho:element>
+                                    </ho:sequence>
+                                    <ho:attribute name="name" type="ho:string" use="required"/>
+                                </ho:complexType>
+                            </ho:element>
+                            <ho:element name="service">
+                                <ho:complexType>
+                                    <ho:sequence>
+                                        <ho:element name="serv" type="ho:string" minOccurs="1" maxOccurs="unbounded"/>
+                                    </ho:sequence>
+                                    <ho:attribute name="list" type="ho:string" use="required"/>
+                                </ho:complexType>
+                            </ho:element>
+                        </ho:sequence>
+                        <ho:attribute name="type" type="ho:string" use="optional"/>
+                    </ho:complexType>
+                </ho:element>
+            </ho:sequence>
+        </ho:complexType>
+    </ho:element>
+</ho:schema>

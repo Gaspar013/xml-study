@@ -1,0 +1,48 @@
+<NotifyTransactionRequest>
+    <memberNumber>732054234</memberNumber>
+    <firstName>CAIO GONCALVES</firstName>
+    <lastName>FRANCOLIN</lastName>
+    <category>Smiles</category>
+    <isClubMember>true</isClubMember>
+    <isFamilyAccount>false</isFamilyAccount>
+    <isCobranded>false</isCobranded>
+    <email>caiofrancolin@gmail.com</email>
+    <language>PTB</language>
+    <availableMiles>41826</availableMiles>
+    <qualifiableMiles>0</qualifiableMiles>
+    <qualifiableSegment>0</qualifiableSegment>
+    <categoryExpirationDate>2049-12-31</categoryExpirationDate>
+    <autoRenovationFlg>false</autoRenovationFlg>
+    <transaction>
+        <id>1-1MZ745PK</id>
+        <type>ACCRUAL</type>
+        <creationDate>2021-03-20T00:00:00</creationDate>
+        <partnerName>SMILES FIDELIDADE</partnerName>
+        <transactionProcessDate>2021-04-08T00:00:00</transactionProcessDate>
+        <partnerType>Product</partnerType>
+        <itensTransaction>
+            <itemTransaction>
+                <itemId>1-1MZ9P6ZJ</itemId>
+                <action>Milhas Retratacao</action>
+                <productType>Bônus experiência Smiles</productType>
+                <milesType>Base</milesType>
+                <amount>10000</amount>
+            </itemTransaction>
+            <itemTransaction>
+                <itemId>1-1MZ5SAQ2</itemId>
+                <action>Milhas Retratacao</action>
+                <productType>Bônus experiência Smiles</productType>
+                <milesType>Base</milesType>
+                <amount>10000</amount>
+            </itemTransaction>
+            <itemTransaction>
+                <itemId>1-1NIATO20</itemId>
+                <action>Milhas Retratacao</action>
+                <productType>Bônus experiência Smiles</productType>
+                <milesType>Base</milesType>
+                <amount>10000</amount>
+            </itemTransaction>
+        </itensTransaction>
+        <productCategory>Retraction</productCategory>
+    </transaction>
+</NotifyTransactionRequest>
