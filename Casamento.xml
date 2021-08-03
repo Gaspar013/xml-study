@@ -1,0 +1,65 @@
+<casamento>
+    <information data="13-07-2022">
+        <hour>16hs</hour>
+    </information>
+    <list type="Noivos">
+        <peop>Rodrigo></peop>
+        <peop>Monica</peop>
+    </list>
+    <list type="Padrinhos">
+        <peop>Keanu Reaves</peop>
+        <peop>Robert Downey Jr</peop>
+        <peop>Tom Elis</peop>
+    </list>
+    <list type="Madrinhas">
+        <peop>Charlize Theron</peop>
+        <peop>Jannifer Aniston</peop>
+    </list>
+    <list type="cerimonia">
+        <peop>Padre Marcelo Rossi</peop>
+    </list>
+    <list type="Convidados">
+        <peop>Walter Whaite</peop>
+        <peop>Angelina Jolie</peop>
+        <peop>Julia Robert's</peop>
+        <peop>Sandra Bullock</peop>
+        <peop>Ema Stone</peop>
+        <peop>Andrew Garfield</peop>
+        <peop>Jesse Eisenberg</peop>
+        <peop>Light Yagami</peop>
+        <peop>Ryuk</peop>
+        <peop>Melina Juergens</peop>
+        <peop>Daniel Radcliffe</peop>
+        <peop>Alucard</peop>
+        <peop>Mestre Yoda</peop>
+        <peop>Harry Mason</peop>
+    </list>
+    <list type="Recepcao">
+        <peop>Zazie Beetz</peop>
+    </list>
+    <list type="tecnicoSom">
+        <peop>Chappie Boladão</peop>
+        <peop>Alice Combat Machine</peop>
+        <peop>Projeto Zeta</peop>
+        <peop>Eliot Anderson</peop>
+    </list>
+    <list type="filmagemFotos">
+        <peop>Mel Gibson</peop>
+    </list>
+    <list type="Musicos">
+        <peop>Jack Black</peop>
+        <peop>Yolandi Visser</peop>
+    </list>
+    <list type="Buffet">
+        <peop>Erick Jacquin</peop>
+        <peop>LeatherFace</peop>
+        <peop>Oliver Anquier</peop>
+    </list>
+    <list type="Seguranca">
+        <peop>Chuck Norris</peop>
+        <peop>Sylvester Stallone</peop>
+        <peop>Arnold Schuwarzenegger</peop>
+        <peop>Jackie Chan</peop>
+        <peop>Mads Mikkelsen</peop>
+    </list>
+</casamento>
